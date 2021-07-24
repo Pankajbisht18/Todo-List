@@ -1,0 +1,50 @@
+.task{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.125);
+}
+.task-button{
+    margin-top: 15px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #883AFC,#548AF1);
+}
+.task-button:hover{
+    background-image: linear-gradient(to right, #548AF1,#883AFC);
+}
+input:focus{
+    outline: none;
+}
+.list{
+    width: 300px;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.todo{
+    font-size: 20px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+.delete{
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+.edit{
+    border: none;
+    background-color: transparent;
+    color: green;
+}
